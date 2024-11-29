@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header {
+    background-color: #7e9173;
+    color: white;
+    padding: 10px 20px;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .nav {
+    display: flex;
+    gap: 15px;
+  }
+  header .shop-btn {
+    background-color: #f8e2c3;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #9fa27c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .hero .cta-btn {
+    background-color: #f8e2c3;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* About Section */
+  .about .container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+  }
+  .about-text {
+    flex: 1;
+  }
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Menu Section */
+  .menu {
+    background-color: #f8e2c3;
+    padding: 20px;
+    text-align: center;
+  }
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .menu-item {
+    background-color: #7e9173;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Blog Section */
+  .blog .blog-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+  }
+  .blog-card {
+    background-color: #9fa27c;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .blog-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #7e9173;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
